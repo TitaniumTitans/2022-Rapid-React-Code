@@ -1,0 +1,3 @@
+[submodule "TitanLib"]
+	path = TitanLib
+	url = https://github.com/TitaniumTitans/TitanLib
