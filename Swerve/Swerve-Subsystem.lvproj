@@ -111,6 +111,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
 		<Item Name="joystick_deadband.vi" Type="VI" URL="../joystick_deadband.vi"/>
+		<Item Name="joystick_to_angle.vi" Type="VI" URL="../../TitanLib/Lib/joystick_to_angle.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
