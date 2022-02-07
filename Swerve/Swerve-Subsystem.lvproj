@@ -97,7 +97,16 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Support Code" Type="Folder">
+			<Item Name="closest_angle.vi" Type="VI" URL="../closest_angle.vi"/>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
+			<Item Name="joystick_deadband.vi" Type="VI" URL="../joystick_deadband.vi"/>
+			<Item Name="joystick_to_angle.vi" Type="VI" URL="../joystick_to_angle.vi"/>
+			<Item Name="quad_max.vi" Type="VI" URL="../quad_max.vi"/>
+			<Item Name="swerve_math.vi" Type="VI" URL="../swerve_math.vi"/>
+			<Item Name="swerve_open_module.vi" Type="VI" URL="../swerve_open_module.vi"/>
+			<Item Name="swerve_output_scaling.vi" Type="VI" URL="../swerve_output_scaling.vi"/>
+			<Item Name="SwerveChooseBestAngle.vi" Type="VI" URL="../SwerveChooseBestAngle.vi"/>
+			<Item Name="vector_length.vi" Type="VI" URL="../vector_length.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder">
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
@@ -110,8 +119,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
-		<Item Name="joystick_deadband.vi" Type="VI" URL="../joystick_deadband.vi"/>
-		<Item Name="joystick_to_angle.vi" Type="VI" URL="../joystick_to_angle.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -531,7 +538,6 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesFRCAutomaticValuePublisher.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRCAutomaticValuePublisher.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
-			<Item Name="closest_angle.vi" Type="VI" URL="../closest_angle.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -548,13 +554,7 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="quad_max.vi" Type="VI" URL="../quad_max.vi"/>
-			<Item Name="swerve_math.vi" Type="VI" URL="../swerve_math.vi"/>
-			<Item Name="swerve_open_module.vi" Type="VI" URL="../swerve_open_module.vi"/>
-			<Item Name="swerve_output_scaling.vi" Type="VI" URL="../swerve_output_scaling.vi"/>
-			<Item Name="SwerveChooseBestAngle.vi" Type="VI" URL="../SwerveChooseBestAngle.vi"/>
 			<Item Name="TitanLib.lvlib" Type="Library" URL="../../TitanLib/Lib/TitanLib.lvlib"/>
-			<Item Name="vector_length.vi" Type="VI" URL="../vector_length.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
