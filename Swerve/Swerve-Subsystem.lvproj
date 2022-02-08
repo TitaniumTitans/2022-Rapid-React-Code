@@ -98,8 +98,8 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="closest_angle.vi" Type="VI" URL="../closest_angle.vi"/>
+			<Item Name="deadband.vi" Type="VI" URL="../deadband.vi"/>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
-			<Item Name="joystick_deadband.vi" Type="VI" URL="../joystick_deadband.vi"/>
 			<Item Name="joystick_to_angle.vi" Type="VI" URL="../joystick_to_angle.vi"/>
 			<Item Name="quad_max.vi" Type="VI" URL="../quad_max.vi"/>
 			<Item Name="swerve_math.vi" Type="VI" URL="../swerve_math.vi"/>
