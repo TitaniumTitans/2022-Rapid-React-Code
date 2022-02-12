@@ -18,7 +18,7 @@
 	</Item>
 	<Item Name="Target" Type="RT myRIO">
 		<Property Name="alias.name" Type="Str">Target</Property>
-		<Property Name="alias.value" Type="Str">172.44.67.2</Property>
+		<Property Name="alias.value" Type="Str">169.254.39.177</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,76F2;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">76F2</Property>
 		<Property Name="crio.family" Type="Str">ARMLinux</Property>
@@ -488,7 +488,7 @@ DirectoryIndex index.htm
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="MagazineLogicTest.vi" Type="VI" URL="../../../GitHub/2022-Rapid-React-Code/MagazineLogicTest.vi"/>
+			<Item Name="MagazineControl.ctl" Type="VI" URL="../../MagazineControl.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -501,7 +501,8 @@ DirectoryIndex index.htm
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="TitanLib.lvlib" Type="Library" URL="../../../GitHub/2022-Rapid-React-Code/TitanLib/Lib/TitanLib.lvlib"/>
+			<Item Name="OneSensorMagazineLogic.vi" Type="VI" URL="../../OneSensorMagazineLogic.vi"/>
+			<Item Name="TitanLib.lvlib" Type="Library" URL="../../TitanLib/Lib/TitanLib.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
