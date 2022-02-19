@@ -121,6 +121,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
 		<Item Name="Accumulate Array.vi" Type="VI" URL="../Accumulate Array.vi"/>
+		<Item Name="delta_x.vi" Type="VI" URL="../delta_x.vi"/>
 		<Item Name="globals.vi" Type="VI" URL="../globals.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
