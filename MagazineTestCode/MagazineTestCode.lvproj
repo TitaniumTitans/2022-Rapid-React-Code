@@ -102,7 +102,12 @@ DirectoryIndex index.htm
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Support Code" Type="Folder">
+			<Item Name="DenoiseFIlter.vi" Type="VI" URL="../DenoiseFIlter.vi"/>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
+			<Item Name="MagazineControl.ctl" Type="VI" URL="../MagazineControl.ctl"/>
+			<Item Name="OneSensorMagazineLogic.ctl" Type="VI" URL="../OneSensorMagazineLogic.ctl"/>
+			<Item Name="OneSensorMagazineLogic.vi" Type="VI" URL="../OneSensorMagazineLogic.vi"/>
+			<Item Name="TwoSensorMagazineLogic.vi" Type="VI" URL="../TwoSensorMagazineLogic.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder">
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
@@ -115,8 +120,6 @@ DirectoryIndex index.htm
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
-		<Item Name="OneSensorMagazine.ctl" Type="VI" URL="../../TitanLib/Lib/OneSensorMagazine.ctl"/>
-		<Item Name="OneSensorMagazineLogic.ctl" Type="VI" URL="../../OneSensorMagazineLogic.ctl"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -546,7 +549,6 @@ DirectoryIndex index.htm
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="MagazineControl.ctl" Type="VI" URL="../../MagazineControl.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -556,7 +558,7 @@ DirectoryIndex index.htm
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="OneSensorMagazineLogic.vi" Type="VI" URL="../../OneSensorMagazineLogic.vi"/>
+			<Item Name="Pulse.vi" Type="VI" URL="../TitanLib/Lib/Pulse.vi"/>
 			<Item Name="TitanLib.lvlib" Type="Library" URL="../../TitanLib/Lib/TitanLib.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
