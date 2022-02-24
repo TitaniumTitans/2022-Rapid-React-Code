@@ -112,6 +112,7 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="MagicMotionPIDF.vi" Type="VI" URL="../../TitanLib/Lib/MagicMotionPIDF.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="TalonMotionMagic.vi" Type="VI" URL="../../Sub VI&apos;s/TalonMotionMagic.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
