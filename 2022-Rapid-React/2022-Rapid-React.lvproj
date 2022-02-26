@@ -111,6 +111,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="talon_set_constants.vi" Type="VI" URL="../talon_set_constants.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -577,16 +578,8 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Piston Control.vi" Type="VI" URL="../../TitanLib/Lib/Piston Control.vi"/>
-			<Item Name="Piston Hold.vi" Type="VI" URL="../../TitanLib/Lib/Piston Hold.vi"/>
-			<Item Name="Power.vi" Type="VI" URL="../../TitanLib/Lib/Power.vi"/>
-			<Item Name="Pulse.vi" Type="VI" URL="../../TitanLib/Lib/Pulse.vi"/>
-			<Item Name="RampDown.vi" Type="VI" URL="../../TitanLib/Lib/RampDown.vi"/>
-			<Item Name="RawUnitsToRPM-2048-CPR.vi" Type="VI" URL="../../TitanLib/Lib/RawUnitsToRPM-2048-CPR.vi"/>
-			<Item Name="RawUnitsToRPM.vi" Type="VI" URL="../../TitanLib/Lib/RawUnitsToRPM.vi"/>
-			<Item Name="RPMToRawUnits-2048-CPR.vi" Type="VI" URL="../../TitanLib/Lib/RPMToRawUnits-2048-CPR.vi"/>
-			<Item Name="RPMToRawUnits.vi" Type="VI" URL="../../TitanLib/Lib/RPMToRawUnits.vi"/>
 			<Item Name="TalonMotionMagic.vi" Type="VI" URL="../../Sub VI&apos;s/TalonMotionMagic.vi"/>
+			<Item Name="TitanLib.lvlib" Type="Library" URL="../../TitanLib/Lib/TitanLib.lvlib"/>
 			<Item Name="TwoSensorMagazineLogic.vi" Type="VI" URL="../../Sub VI&apos;s/TwoSensorMagazineLogic.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
