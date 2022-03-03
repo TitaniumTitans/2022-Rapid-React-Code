@@ -102,13 +102,23 @@ AddOutputFilter chunkFilter
 			<Item Name="deadband.vi" Type="VI" URL="../deadband.vi"/>
 			<Item Name="delta_x.vi" Type="VI" URL="../delta_x.vi"/>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
+			<Item Name="FalconSwerveVelocityConversion.vi" Type="VI" URL="../FalconSwerveVelocityConversion.vi"/>
 			<Item Name="joystick_to_angle.vi" Type="VI" URL="../joystick_to_angle.vi"/>
+			<Item Name="MagazineControl.ctl" Type="VI" URL="../MagazineControl.ctl"/>
 			<Item Name="quad_max.vi" Type="VI" URL="../quad_max.vi"/>
+			<Item Name="Set_CTRE_Status_Period.vi" Type="VI" URL="../Set_CTRE_Status_Period.vi"/>
+			<Item Name="Status Config Array.ctl" Type="VI" URL="../Status Config Array.ctl"/>
+			<Item Name="Status Frame Setting.ctl" Type="VI" URL="../Status Frame Setting.ctl"/>
+			<Item Name="STATUS_Period.ctl" Type="VI" URL="../STATUS_Period.ctl"/>
+			<Item Name="swerve_forwards_kinematics.vi" Type="VI" URL="../swerve_forwards_kinematics.vi"/>
 			<Item Name="swerve_math.vi" Type="VI" URL="../swerve_math.vi"/>
 			<Item Name="swerve_odometry.vi" Type="VI" URL="../swerve_odometry.vi"/>
 			<Item Name="swerve_open_module.vi" Type="VI" URL="../swerve_open_module.vi"/>
 			<Item Name="swerve_output_scaling.vi" Type="VI" URL="../swerve_output_scaling.vi"/>
 			<Item Name="SwerveChooseBestAngle.vi" Type="VI" URL="../SwerveChooseBestAngle.vi"/>
+			<Item Name="SwerveModuleOdometry.vi" Type="VI" URL="../SwerveModuleOdometry.vi"/>
+			<Item Name="talon_set_constants.vi" Type="VI" URL="../talon_set_constants.vi"/>
+			<Item Name="TwoSensorMagazineLogic.vi" Type="VI" URL="../TwoSensorMagazineLogic.vi"/>
 			<Item Name="vector_length.vi" Type="VI" URL="../vector_length.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder">
@@ -643,12 +653,10 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
-			<Item Name="FalconSwerveVelocityConversion.vi" Type="VI" URL="../FalconSwerveVelocityConversion.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="MagazineControl.ctl" Type="VI" URL="../MagazineControl.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -661,15 +669,7 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Set_CTRE_Status_Period.vi" Type="VI" URL="../Set_CTRE_Status_Period.vi"/>
-			<Item Name="Status Config Array.ctl" Type="VI" URL="../Status Config Array.ctl"/>
-			<Item Name="Status Frame Setting.ctl" Type="VI" URL="../Status Frame Setting.ctl"/>
-			<Item Name="STATUS_Period.ctl" Type="VI" URL="../STATUS_Period.ctl"/>
-			<Item Name="swerve_forwards_kinematics.vi" Type="VI" URL="../swerve_forwards_kinematics.vi"/>
-			<Item Name="SwerveModuleOdometry.vi" Type="VI" URL="../SwerveModuleOdometry.vi"/>
-			<Item Name="talon_set_constants.vi" Type="VI" URL="../talon_set_constants.vi"/>
 			<Item Name="TitanLib.lvlib" Type="Library" URL="../../TitanLib/Lib/TitanLib.lvlib"/>
-			<Item Name="TwoSensorMagazineLogic.vi" Type="VI" URL="../TwoSensorMagazineLogic.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
