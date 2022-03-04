@@ -97,21 +97,23 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Support Code" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Accumulate Array.vi" Type="VI" URL="../Accumulate Array.vi"/>
 			<Item Name="closest_angle.vi" Type="VI" URL="../closest_angle.vi"/>
 			<Item Name="deadband.vi" Type="VI" URL="../deadband.vi"/>
 			<Item Name="delta_x.vi" Type="VI" URL="../delta_x.vi"/>
 			<Item Name="DenoiseFIlter.vi" Type="VI" URL="../DenoiseFIlter.vi"/>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
-			<Item Name="FalconSwerveVelocityConversion.vi" Type="VI" URL="../FalconSwerveVelocityConversion.vi"/>
 			<Item Name="joystick_to_angle.vi" Type="VI" URL="../joystick_to_angle.vi"/>
+			<Item Name="FalconSwerveVelocityConversion.vi" Type="VI" URL="../FalconSwerveVelocityConversion.vi"/>
+			<Item Name="STATUS_Period.ctl" Type="VI" URL="../Status Frame Stuff/STATUS_Period.ctl"/>
+			<Item Name="MagazineControl New.ctl" Type="VI" URL="../MagazineControl New.ctl"/>
 			<Item Name="MagazineControl.ctl" Type="VI" URL="../MagazineControl.ctl"/>
 			<Item Name="OneSensorMagazineLogic.vi" Type="VI" URL="../OneSensorMagazineLogic.vi"/>
+			<Item Name="Pigeon Status Config Array.ctl" Type="VI" URL="../Status Frame Stuff/Pigeon Status Config Array.ctl"/>
+			<Item Name="Pigeon Status Frame Setting.ctl" Type="VI" URL="../Status Frame Stuff/Pigeon Status Frame Setting.ctl"/>
+			<Item Name="Pigeon Status Periodvi.vi" Type="VI" URL="../Status Frame Stuff/Pigeon Status Periodvi.vi"/>
 			<Item Name="quad_max.vi" Type="VI" URL="../quad_max.vi"/>
-			<Item Name="Set_CTRE_Status_Period.vi" Type="VI" URL="../Set_CTRE_Status_Period.vi"/>
-			<Item Name="Status Config Array.ctl" Type="VI" URL="../Status Config Array.ctl"/>
-			<Item Name="Status Frame Setting.ctl" Type="VI" URL="../Status Frame Setting.ctl"/>
-			<Item Name="STATUS_Period.ctl" Type="VI" URL="../STATUS_Period.ctl"/>
 			<Item Name="swerve_forwards_kinematics.vi" Type="VI" URL="../swerve_forwards_kinematics.vi"/>
 			<Item Name="swerve_math.vi" Type="VI" URL="../swerve_math.vi"/>
 			<Item Name="swerve_odometry.vi" Type="VI" URL="../swerve_odometry.vi"/>
@@ -119,6 +121,9 @@ AddOutputFilter chunkFilter
 			<Item Name="swerve_output_scaling.vi" Type="VI" URL="../swerve_output_scaling.vi"/>
 			<Item Name="SwerveChooseBestAngle.vi" Type="VI" URL="../SwerveChooseBestAngle.vi"/>
 			<Item Name="SwerveModuleOdometry.vi" Type="VI" URL="../SwerveModuleOdometry.vi"/>
+			<Item Name="Talon Status Config Array.ctl" Type="VI" URL="../Status Frame Stuff/Talon Status Config Array.ctl"/>
+			<Item Name="Talon Status Frame Setting.ctl" Type="VI" URL="../Status Frame Stuff/Talon Status Frame Setting.ctl"/>
+			<Item Name="Talon Status Period.vi" Type="VI" URL="../Status Frame Stuff/Talon Status Period.vi"/>
 			<Item Name="talon_set_constants.vi" Type="VI" URL="../talon_set_constants.vi"/>
 			<Item Name="TwoSensorMagazineLogic.vi" Type="VI" URL="../TwoSensorMagazineLogic.vi"/>
 			<Item Name="vector_length.vi" Type="VI" URL="../vector_length.vi"/>
@@ -135,7 +140,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
-		<Item Name="MagazineControl New.ctl" Type="VI" URL="../MagazineControl New.ctl"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -147,7 +151,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Cnx List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Cnx List Operations.ctl"/>
 				<Item Name="Cnx State.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Cnx State.ctl"/>
-				<Item Name="Color (U64)" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Color (U64)"/>
 				<Item Name="Convert NT Boolean to LV String.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Convert NT Boolean to LV String.vi"/>
 				<Item Name="Convert NT Types.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Convert NT Types.vi"/>
 				<Item Name="Convert String to NT Boolean Array Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Convert String to NT Boolean Array Buffer.vi"/>
@@ -248,7 +251,9 @@ AddOutputFilter chunkFilter
 				<Item Name="CTRE_PigeonIMU_PigeonState.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_PigeonState.ctl"/>
 				<Item Name="CTRE_PigeonIMU_RefNumRegistryGet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_RefNumRegistryGet.vi"/>
 				<Item Name="CTRE_PigeonIMU_RefNumRegistrySet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_RefNumRegistrySet.vi"/>
+				<Item Name="CTRE_PigeonIMU_SetStatusFrameRate.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_SetStatusFrameRate.vi"/>
 				<Item Name="CTRE_PigeonIMU_SetYaw.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_SetYaw.vi"/>
+				<Item Name="CTRE_PigeonIMU_StatusFrameRate.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_StatusFrameRate.ctl"/>
 				<Item Name="CTRE_PigeonIMU_TareType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_TareType.ctl"/>
 				<Item Name="DIO data proto.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Devices/DIO/DIO data proto.ctl"/>
 				<Item Name="DIO proto.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Devices/DIO/DIO proto.ctl"/>
@@ -305,8 +310,6 @@ AddOutputFilter chunkFilter
 				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
 				<Item Name="i2c_bus.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/i2clib/i2c_bus.ctl"/>
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
-				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
-				<Item Name="IMAQ ArrayToColorImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToColorImage"/>
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
 				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
@@ -384,6 +387,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
 				<Item Name="Report Read Error.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Report Read Error.vi"/>
+				<Item Name="roboRIO_FPGA_2022_22.2.0.lvbitx" Type="Document" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/roboRIO_FPGA_2022_22.2.0.lvbitx"/>
 				<Item Name="Safe Image Get Image.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/USB Support/Safe Image Get Image.vi"/>
 				<Item Name="Search Unsorted 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Search Unsorted 1D Array Core.vim"/>
 				<Item Name="Search Unsorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Unsorted 1D Array.vim"/>
@@ -399,7 +403,6 @@ AddOutputFilter chunkFilter
 				<Item Name="TCP Listen.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen.vi"/>
 				<Item Name="Tokenize Path.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Tokenize Path.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="Unflatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Unflatten Pixmap.vi"/>
 				<Item Name="Update Other Clients.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Update Other Clients.vi"/>
 				<Item Name="Usage Statistics.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Usage Statistics.vi"/>
 				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
@@ -666,12 +669,11 @@ AddOutputFilter chunkFilter
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Status Config Array.ctl" Type="VI" URL="../Status Frame Stuff/Status Config Array.ctl"/>
+			<Item Name="Status Frame Setting.ctl" Type="VI" URL="../Status Frame Stuff/Status Frame Setting.ctl"/>
 			<Item Name="TitanLib.lvlib" Type="Library" URL="../../TitanLib/Lib/TitanLib.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
