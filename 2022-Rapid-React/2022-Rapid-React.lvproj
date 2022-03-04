@@ -106,6 +106,7 @@ AddOutputFilter chunkFilter
 			<Item Name="FalconSwerveVelocityConversion.vi" Type="VI" URL="../FalconSwerveVelocityConversion.vi"/>
 			<Item Name="joystick_to_angle.vi" Type="VI" URL="../joystick_to_angle.vi"/>
 			<Item Name="MagazineControl.ctl" Type="VI" URL="../MagazineControl.ctl"/>
+			<Item Name="OneSensorMagazineLogic.vi" Type="VI" URL="../OneSensorMagazineLogic.vi"/>
 			<Item Name="quad_max.vi" Type="VI" URL="../quad_max.vi"/>
 			<Item Name="Set_CTRE_Status_Period.vi" Type="VI" URL="../Set_CTRE_Status_Period.vi"/>
 			<Item Name="Status Config Array.ctl" Type="VI" URL="../Status Config Array.ctl"/>
