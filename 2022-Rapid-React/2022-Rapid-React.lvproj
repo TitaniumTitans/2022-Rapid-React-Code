@@ -112,7 +112,7 @@ AddOutputFilter chunkFilter
 			<Item Name="OneSensorMagazineLogic.vi" Type="VI" URL="../OneSensorMagazineLogic.vi"/>
 			<Item Name="Pigeon Status Config Array.ctl" Type="VI" URL="../Status Frame Stuff/Pigeon Status Config Array.ctl"/>
 			<Item Name="Pigeon Status Frame Setting.ctl" Type="VI" URL="../Status Frame Stuff/Pigeon Status Frame Setting.ctl"/>
-			<Item Name="Pigeon Status Periodvi.vi" Type="VI" URL="../Status Frame Stuff/Pigeon Status Periodvi.vi"/>
+			<Item Name="Pigeon Status Period.vi" Type="VI" URL="../Status Frame Stuff/Pigeon Status Period.vi"/>
 			<Item Name="quad_max.vi" Type="VI" URL="../quad_max.vi"/>
 			<Item Name="swerve_forwards_kinematics.vi" Type="VI" URL="../swerve_forwards_kinematics.vi"/>
 			<Item Name="swerve_math.vi" Type="VI" URL="../swerve_math.vi"/>
@@ -672,8 +672,6 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Status Config Array.ctl" Type="VI" URL="../Status Frame Stuff/Status Config Array.ctl"/>
-			<Item Name="Status Frame Setting.ctl" Type="VI" URL="../Status Frame Stuff/Status Frame Setting.ctl"/>
 			<Item Name="TitanLib.lvlib" Type="Library" URL="../../TitanLib/Lib/TitanLib.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
