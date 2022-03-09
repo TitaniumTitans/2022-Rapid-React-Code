@@ -154,6 +154,7 @@ AddOutputFilter chunkFilter
 		<Item Name="flywheel.vi" Type="VI" URL="../flywheel.vi"/>
 		<Item Name="magazine.vi" Type="VI" URL="../magazine.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="swerve.vi" Type="VI" URL="../swerve.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
