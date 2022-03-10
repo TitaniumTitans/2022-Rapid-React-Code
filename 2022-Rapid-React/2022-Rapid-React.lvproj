@@ -133,21 +133,21 @@ AddOutputFilter chunkFilter
 				<Item Name="swerve.vi" Type="VI" URL="../swerve.vi"/>
 				<Item Name="closest_angle.vi" Type="VI" URL="../closest_angle.vi"/>
 				<Item Name="flywheel.vi" Type="VI" URL="../flywheel.vi"/>
+				<Item Name="encoders_periodic.vi" Type="VI" URL="../encoders_periodic.vi"/>
+				<Item Name="pigeon_periodic.vi" Type="VI" URL="../pigeon_periodic.vi"/>
+				<Item Name="swerve_graphing.vi" Type="VI" URL="../swerve_graphing.vi"/>
+				<Item Name="swerve_periodic.vi" Type="VI" URL="../swerve_periodic.vi"/>
 			</Item>
 			<Item Name="Utility VIs" Type="Folder">
 				<Item Name="vector_length.vi" Type="VI" URL="../vector_length.vi"/>
 				<Item Name="axis_to_bool.vi" Type="VI" URL="../axis_to_bool.vi"/>
 				<Item Name="talon_set_constants.vi" Type="VI" URL="../talon_set_constants.vi"/>
+				<Item Name="swerve_raw_to_vec.vi" Type="VI" URL="../swerve_raw_to_vec.vi"/>
 				<Item Name="DenoiseFIlter.vi" Type="VI" URL="../DenoiseFIlter.vi"/>
 				<Item Name="deadband.vi" Type="VI" URL="../deadband.vi"/>
 			</Item>
-			<Item Name="Accumulate Array.vi" Type="VI" URL="../Accumulate Array.vi"/>
-			<Item Name="delta_x.vi" Type="VI" URL="../delta_x.vi"/>
+			<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
-			<Item Name="joystick_to_angle.vi" Type="VI" URL="../joystick_to_angle.vi"/>
-			<Item Name="FalconSwerveVelocityConversion.vi" Type="VI" URL="../FalconSwerveVelocityConversion.vi"/>
-			<Item Name="MagazineControl.ctl" Type="VI" URL="../MagazineControl.ctl"/>
-			<Item Name="TwoSensorMagazineLogic.vi" Type="VI" URL="../TwoSensorMagazineLogic.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder">
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
@@ -161,11 +161,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
-		<Item Name="encoders_periodic.vi" Type="VI" URL="../encoders_periodic.vi"/>
-		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="swerve_graphing.vi" Type="VI" URL="../swerve_graphing.vi"/>
-		<Item Name="swerve_periodic.vi" Type="VI" URL="../swerve_periodic.vi"/>
-		<Item Name="swerve_raw_to_vec.vi" Type="VI" URL="../swerve_raw_to_vec.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -807,7 +802,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Source[0].itemID" Type="Str">{F0DE072B-DF39-4EFF-BF3D-EF36B6209FF1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/Target/Robot Main.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/Target/Support Code/Robot Main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
