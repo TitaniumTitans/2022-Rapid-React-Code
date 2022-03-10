@@ -124,23 +124,30 @@ AddOutputFilter chunkFilter
 				<Item Name="swerve_best_angle.vi" Type="VI" URL="../swerve_best_angle.vi"/>
 				<Item Name="SwerveModuleOdometry.vi" Type="VI" URL="../SwerveModuleOdometry.vi"/>
 			</Item>
+			<Item Name="Subsystems" Type="Folder">
+				<Item Name="magazine.vi" Type="VI" URL="../magazine.vi"/>
+				<Item Name="magazine_state.ctl" Type="VI" URL="../magazine_state.ctl"/>
+				<Item Name="magazine_state_machine.vi" Type="VI" URL="../magazine_state_machine.vi"/>
+				<Item Name="climber.vi" Type="VI" URL="../climber.vi"/>
+				<Item Name="hood.vi" Type="VI" URL="../hood.vi"/>
+				<Item Name="swerve.vi" Type="VI" URL="../swerve.vi"/>
+				<Item Name="closest_angle.vi" Type="VI" URL="../closest_angle.vi"/>
+				<Item Name="flywheel.vi" Type="VI" URL="../flywheel.vi"/>
+			</Item>
+			<Item Name="Utility VIs" Type="Folder">
+				<Item Name="vector_length.vi" Type="VI" URL="../vector_length.vi"/>
+				<Item Name="axis_to_bool.vi" Type="VI" URL="../axis_to_bool.vi"/>
+				<Item Name="talon_set_constants.vi" Type="VI" URL="../talon_set_constants.vi"/>
+				<Item Name="DenoiseFIlter.vi" Type="VI" URL="../DenoiseFIlter.vi"/>
+				<Item Name="deadband.vi" Type="VI" URL="../deadband.vi"/>
+			</Item>
 			<Item Name="Accumulate Array.vi" Type="VI" URL="../Accumulate Array.vi"/>
-			<Item Name="closest_angle.vi" Type="VI" URL="../closest_angle.vi"/>
-			<Item Name="deadband.vi" Type="VI" URL="../deadband.vi"/>
 			<Item Name="delta_x.vi" Type="VI" URL="../delta_x.vi"/>
-			<Item Name="DenoiseFIlter.vi" Type="VI" URL="../DenoiseFIlter.vi"/>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="joystick_to_angle.vi" Type="VI" URL="../joystick_to_angle.vi"/>
 			<Item Name="FalconSwerveVelocityConversion.vi" Type="VI" URL="../FalconSwerveVelocityConversion.vi"/>
-			<Item Name="magazine_state.ctl" Type="VI" URL="../magazine_state.ctl"/>
 			<Item Name="MagazineControl.ctl" Type="VI" URL="../MagazineControl.ctl"/>
-			<Item Name="magazine_state_machine.vi" Type="VI" URL="../magazine_state_machine.vi"/>
-			<Item Name="talon_set_constants.vi" Type="VI" URL="../talon_set_constants.vi"/>
 			<Item Name="TwoSensorMagazineLogic.vi" Type="VI" URL="../TwoSensorMagazineLogic.vi"/>
-			<Item Name="vector_length.vi" Type="VI" URL="../vector_length.vi"/>
-			<Item Name="flywheel.vi" Type="VI" URL="../flywheel.vi"/>
-			<Item Name="magazine.vi" Type="VI" URL="../magazine.vi"/>
-			<Item Name="swerve.vi" Type="VI" URL="../swerve.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder">
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
@@ -748,11 +755,9 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
-			<Item Name="climber.vi" Type="VI" URL="../climber.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="hood.vi" Type="VI" URL="../hood.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
