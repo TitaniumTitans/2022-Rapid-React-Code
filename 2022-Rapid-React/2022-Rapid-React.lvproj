@@ -117,12 +117,14 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="Swerve" Type="Folder">
 				<Item Name="quad_max.vi" Type="VI" URL="../quad_max.vi"/>
+				<Item Name="swerve.vi" Type="VI" URL="../swerve.vi"/>
 				<Item Name="swerve_forwards_kinematics.vi" Type="VI" URL="../swerve_forwards_kinematics.vi"/>
 				<Item Name="swerve_math.vi" Type="VI" URL="../swerve_math.vi"/>
 				<Item Name="swerve_odometry.vi" Type="VI" URL="../swerve_odometry.vi"/>
 				<Item Name="swerve_output_scaling.vi" Type="VI" URL="../swerve_output_scaling.vi"/>
+				<Item Name="swerve_graphing.vi" Type="VI" URL="../swerve_graphing.vi"/>
+				<Item Name="swerve_periodic.vi" Type="VI" URL="../swerve_periodic.vi"/>
 				<Item Name="swerve_best_angle.vi" Type="VI" URL="../swerve_best_angle.vi"/>
-				<Item Name="SwerveModuleOdometry.vi" Type="VI" URL="../SwerveModuleOdometry.vi"/>
 			</Item>
 			<Item Name="Subsystems" Type="Folder">
 				<Item Name="magazine.vi" Type="VI" URL="../magazine.vi"/>
@@ -130,13 +132,10 @@ AddOutputFilter chunkFilter
 				<Item Name="magazine_state_machine.vi" Type="VI" URL="../magazine_state_machine.vi"/>
 				<Item Name="climber.vi" Type="VI" URL="../climber.vi"/>
 				<Item Name="hood.vi" Type="VI" URL="../hood.vi"/>
-				<Item Name="swerve.vi" Type="VI" URL="../swerve.vi"/>
 				<Item Name="closest_angle.vi" Type="VI" URL="../closest_angle.vi"/>
 				<Item Name="flywheel.vi" Type="VI" URL="../flywheel.vi"/>
 				<Item Name="encoders_periodic.vi" Type="VI" URL="../encoders_periodic.vi"/>
 				<Item Name="pigeon_periodic.vi" Type="VI" URL="../pigeon_periodic.vi"/>
-				<Item Name="swerve_graphing.vi" Type="VI" URL="../swerve_graphing.vi"/>
-				<Item Name="swerve_periodic.vi" Type="VI" URL="../swerve_periodic.vi"/>
 			</Item>
 			<Item Name="Utility VIs" Type="Folder">
 				<Item Name="vector_length.vi" Type="VI" URL="../vector_length.vi"/>
@@ -150,17 +149,21 @@ AddOutputFilter chunkFilter
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
 			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
 			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
-			<Item Name="globals.vi" Type="VI" URL="../globals.vi"/>
+			<Item Name="swerve_globals.vi" Type="VI" URL="../swerve_globals.vi"/>
+			<Item Name="magazine_globals.vi" Type="VI" URL="../magazine_globals.vi"/>
+			<Item Name="shooter_globals.vi" Type="VI" URL="../shooter_globals.vi"/>
 			<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
 			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
 			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
+		<Item Name="climber_globals.vi" Type="VI" URL="../climber_globals.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
