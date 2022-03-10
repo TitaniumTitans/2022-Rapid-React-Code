@@ -144,6 +144,7 @@ AddOutputFilter chunkFilter
 				<Item Name="swerve_raw_to_vec.vi" Type="VI" URL="../swerve_raw_to_vec.vi"/>
 				<Item Name="DenoiseFIlter.vi" Type="VI" URL="../DenoiseFIlter.vi"/>
 				<Item Name="deadband.vi" Type="VI" URL="../deadband.vi"/>
+				<Item Name="turret_theta.vi" Type="VI" URL="../turret_theta.vi"/>
 			</Item>
 			<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
@@ -155,6 +156,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
 			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
 			<Item Name="swerve_globals.vi" Type="VI" URL="../swerve_globals.vi"/>
+			<Item Name="climber_globals.vi" Type="VI" URL="../climber_globals.vi"/>
 			<Item Name="magazine_globals.vi" Type="VI" URL="../magazine_globals.vi"/>
 			<Item Name="shooter_globals.vi" Type="VI" URL="../shooter_globals.vi"/>
 			<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
@@ -163,8 +165,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
-		<Item Name="climber_globals.vi" Type="VI" URL="../climber_globals.vi"/>
-		<Item Name="turret_theta.vi" Type="VI" URL="../turret_theta.vi"/>
+		<Item Name="robot.ctl" Type="VI" URL="../robot.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
