@@ -161,7 +161,11 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
+		<Item Name="encoders_periodic.vi" Type="VI" URL="../encoders_periodic.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="swerve_graphing.vi" Type="VI" URL="../swerve_graphing.vi"/>
+		<Item Name="swerve_periodic.vi" Type="VI" URL="../swerve_periodic.vi"/>
+		<Item Name="swerve_raw_to_vec.vi" Type="VI" URL="../swerve_raw_to_vec.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
