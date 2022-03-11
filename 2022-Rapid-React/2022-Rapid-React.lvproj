@@ -96,72 +96,29 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="Support Code" Type="Folder">
+		<Item Name="2022-Rapid-React" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Opens" Type="Folder">
-				<Item Name="open_magazine.vi" Type="VI" URL="../opens/open_magazine.vi"/>
-				<Item Name="open_pneumatics.vi" Type="VI" URL="../opens/open_pneumatics.vi"/>
-				<Item Name="open_shooter.vi" Type="VI" URL="../opens/open_shooter.vi"/>
-				<Item Name="open_swerve.vi" Type="VI" URL="../opens/open_swerve.vi"/>
-				<Item Name="open_swerve_module.vi" Type="VI" URL="../opens/open_swerve_module.vi"/>
-				<Item Name="open_climber.vi" Type="VI" URL="../opens/open_climber.vi"/>
+			<Item Name="Status Frame Config" Type="Folder" URL="../Status Frame Config">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Status Frame Stuff" Type="Folder">
-				<Item Name="STATUS_Period.ctl" Type="VI" URL="../Status Frame Stuff/STATUS_Period.ctl"/>
-				<Item Name="Pigeon Status Config Array.ctl" Type="VI" URL="../Status Frame Stuff/Pigeon Status Config Array.ctl"/>
-				<Item Name="Pigeon Status Frame Setting.ctl" Type="VI" URL="../Status Frame Stuff/Pigeon Status Frame Setting.ctl"/>
-				<Item Name="Pigeon Status Period.vi" Type="VI" URL="../Status Frame Stuff/Pigeon Status Period.vi"/>
-				<Item Name="Talon Status Config Array.ctl" Type="VI" URL="../Status Frame Stuff/Talon Status Config Array.ctl"/>
-				<Item Name="Talon Status Frame Setting.ctl" Type="VI" URL="../Status Frame Stuff/Talon Status Frame Setting.ctl"/>
-				<Item Name="Talon Status Period.vi" Type="VI" URL="../Status Frame Stuff/Talon Status Period.vi"/>
+			<Item Name="Subsystems" Type="Folder" URL="../Subsystems">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Swerve" Type="Folder">
-				<Item Name="quad_max.vi" Type="VI" URL="../quad_max.vi"/>
-				<Item Name="swerve.vi" Type="VI" URL="../swerve.vi"/>
-				<Item Name="swerve_forwards_kinematics.vi" Type="VI" URL="../swerve_forwards_kinematics.vi"/>
-				<Item Name="swerve_math.vi" Type="VI" URL="../swerve_math.vi"/>
-				<Item Name="swerve_odometry.vi" Type="VI" URL="../swerve_odometry.vi"/>
-				<Item Name="swerve_output_scaling.vi" Type="VI" URL="../swerve_output_scaling.vi"/>
-				<Item Name="swerve_graphing.vi" Type="VI" URL="../swerve_graphing.vi"/>
-				<Item Name="swerve_periodic.vi" Type="VI" URL="../swerve_periodic.vi"/>
-				<Item Name="swerve_best_angle.vi" Type="VI" URL="../swerve_best_angle.vi"/>
-			</Item>
-			<Item Name="Subsystems" Type="Folder">
-				<Item Name="magazine.vi" Type="VI" URL="../magazine.vi"/>
-				<Item Name="magazine_state.ctl" Type="VI" URL="../magazine_state.ctl"/>
-				<Item Name="magazine_state_machine.vi" Type="VI" URL="../magazine_state_machine.vi"/>
-				<Item Name="climber.vi" Type="VI" URL="../climber.vi"/>
-				<Item Name="hood.vi" Type="VI" URL="../hood.vi"/>
-				<Item Name="closest_angle.vi" Type="VI" URL="../closest_angle.vi"/>
-				<Item Name="flywheel.vi" Type="VI" URL="../flywheel.vi"/>
-				<Item Name="encoders_periodic.vi" Type="VI" URL="../encoders_periodic.vi"/>
-				<Item Name="pigeon_periodic.vi" Type="VI" URL="../pigeon_periodic.vi"/>
-			</Item>
-			<Item Name="Utility VIs" Type="Folder">
-				<Item Name="vector_length.vi" Type="VI" URL="../vector_length.vi"/>
-				<Item Name="axis_to_bool.vi" Type="VI" URL="../axis_to_bool.vi"/>
-				<Item Name="talon_set_constants.vi" Type="VI" URL="../talon_set_constants.vi"/>
-				<Item Name="swerve_raw_to_vec.vi" Type="VI" URL="../swerve_raw_to_vec.vi"/>
-				<Item Name="DenoiseFIlter.vi" Type="VI" URL="../DenoiseFIlter.vi"/>
-				<Item Name="deadband.vi" Type="VI" URL="../deadband.vi"/>
-				<Item Name="turret_theta.vi" Type="VI" URL="../turret_theta.vi"/>
+			<Item Name="Utility VIs" Type="Folder" URL="../Utility VIs">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
 			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
+			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
-			<Item Name="robot.ctl" Type="VI" URL="../robot.ctl"/>
-			<Item Name="swerve_globals.vi" Type="VI" URL="../swerve_globals.vi"/>
-			<Item Name="climber_globals.vi" Type="VI" URL="../climber_globals.vi"/>
-			<Item Name="magazine_globals.vi" Type="VI" URL="../magazine_globals.vi"/>
-			<Item Name="shooter_globals.vi" Type="VI" URL="../shooter_globals.vi"/>
 			<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
 			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
+			<Item Name="robot.ctl" Type="VI" URL="../robot.ctl"/>
 			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
@@ -807,7 +764,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Source[0].itemID" Type="Str">{F0DE072B-DF39-4EFF-BF3D-EF36B6209FF1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/Target/Support Code/Robot Main.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/Target/2022-Rapid-React/Robot Main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
