@@ -1,0 +1,54 @@
+251 - Status_15 (16 devices not using this)
+241 - Status_14 (16 devices not using this)
+239 - Status_13 (16 devices not using this)
+233 - Status_12 (16 devices not using this)
+229 - Status_11 (16 devices not using this)
+227 - Status_10 (16 devices not using this)
+223 - Status_9  (16 devices not using this)
+211 - Status_8  (16 devices not using this)
+199 - Status_7  (16 devices not using this)
+197 - Status_6  (16 devices not using this)
+193 - Status_4  (16 devices not using this)
+191 - Status_3  (16 devices not using this)
+181 - Status_1  (16 devices not using this)
+179 - fdbk 0 (if disabled - 9 devices not using this)
+173 - encoder vbat (4 devices not using this)
+167 - bldc amperage (3 devices not using this)
+163 - b_accel
+157 - 4_mag
+151 - 2_gyro
+149 - r 4_mag
+139 - c_10
+137 - c_3
+131 - c_2
+127 - c_11
+113 - c_6
+109 - c_1
+107
+103
+101
+97
+89
+83
+79              
+73				  
+71
+67
+61
+59
+53 - fdbk 0 (important - 7 devices using)
+47 - enc (important - 4 devices using)
+43 - c_9 (important - 1 devices using)
+41
+37
+31
+29
+23
+19
+17
+13
+11
+7
+5
+3
+2
