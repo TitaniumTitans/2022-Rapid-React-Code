@@ -1,0 +1,411 @@
+Distance,RPM,In / Out,Location
+75,3400,Out,Short
+75,3400,Out,Short
+82,3400,Out,Short
+82,3400,Out,Short
+90,3400,Out,Short
+90,3450,Out,Short
+90,3450,Out,Short
+90,3500,Out,Short
+101,3400,In,Center
+101,3400,In,Hit Back Rim
+101,3400,In,Hit Back Rim
+101,3400,Out,Hit Front Rim
+101,3400,Out,Near Back Rim
+101,3525,In,Center
+101,3525,In,Center
+101,3525,In,Center
+101,3525,in,Center
+101,3525,In,Hit Back Rim
+101,3525,In,Hit Back Rim
+101,3525,Out,Long
+101,3525,Out,Long
+101,3525,Out,Long
+106.5,3000,Out,Short
+106.5,3500,Out,Hit Front Rim
+106.5,3550,In,Center
+106.5,3550,In,Center
+106.5,3550,In,Center
+106.5,3590,Out,Hit Front Rim
+106.5,3590,Out,Long
+106.5,3600,Out,Long
+106.5,3600,Out,Long
+106.5,4000,Out,Long
+111.5,3450,In,Center
+111.5,3450,In,Center
+111.5,3450,In,Center
+111.5,3450,In,Center
+111.5,3450,In,Center
+111.5,3450,In,Center
+111.5,3450,In,Center
+111.5,3450,In,Hit Back Rim
+111.5,3450,In,Center
+111.5,3450,Out,Fr Rim
+111.5,3450,Out,Fr Rim
+111.5,3500,In,Center
+111.5,3500,In,Center
+111.5,3500,In,Hit Back Rim
+111.5,3500,In,Center
+111.5,3500,Out,Long
+111.5,3500,Out,Near Back Rim
+111.5,3550,in,Center
+111.5,3550,In,Center
+111.5,3550,In,Center
+111.5,3550,In,Center
+111.5,3550,In,Center
+111.5,3550,Out,Fr Rim
+111.5,3550,Out,Long
+111.5,3550,Out,Near Back Rim
+111.5,3600,In,Center
+111.5,3600,In,Hit Back Rim
+111.5,3600,In,Center
+111.5,3600,In,Hit Back Rim
+111.5,3600,In,Center
+111.5,3600,Out,Near Back Rim
+111.5,3600,Out,Long
+119.7,3500,In,Center
+119.7,3500,In,Center
+119.7,3500,In,Center
+119.7,3500,In,Hit Back Rim
+119.7,3500,In,Center
+119.7,3650,In,Center
+119.7,3650,In,Center
+119.7,3650,In,Center
+119.7,3700,In,Hit Back Rim
+119.7,3700,Out,Long
+121.5,3550,In,Center
+121.5,3550,in,Hit Back Rim
+121.5,3550,In,Center
+128.5,3400,In,Center
+128.5,3400,In,Center
+128.5,3400,In,Center
+128.5,3400,In,Center
+128.5,3400,Out,Hit Front Rim
+128.5,3400,Out,Hit Front Rim
+128.5,3450,In,Center
+128.5,3450,In,Center
+128.5,3450,In,Center
+128.5,3450,In,Center
+128.5,3450,In,Center
+128.5,3500,In,Center
+128.5,3500,In,Hit Back Rim
+128.5,3500,In,Center
+128.5,3500,In,Hit Back Rim
+128.5,3500,In,Center
+128.5,3600,In,Center
+128.5,3600,In,Center
+128.5,3600,In,Center
+128.5,3700,In,Hit Back Rim
+128.5,3700,Out,Near Back Rim
+128.5,3750,Out,Long
+129.5,3500,In,Center
+129.5,3500,In,Center
+129.5,3500,In,Center
+129.5,3500,Out,Hit Front Rim
+129.5,3500,Out,Hit Front Rim
+129.5,3600,In,Center
+129.5,3600,In,Center
+129.5,3600,In,Center
+129.5,3650,In,Center
+129.5,3650,In,Center
+129.5,3700,In,Hit Back Rim
+129.5,3700,In,Hit Back Rim
+129.5,3700,In,Hit Back Rim
+129.5,3750,In,Hit Back Rim
+129.5,3750,Out,Near Back Rim
+129.5,3800,In,Hit Back Rim
+129.5,3800,In,Hit Back Rim
+129.5,3800,Out,Long
+132,3550,In,Center
+132,3550,Out,Hit Front Rim
+132,3550,Out,Hit Front Rim
+137,3400,In,Center
+137,3400,Out,Hit Front Rim
+137,3400,Out,Hit Front Rim
+137,3450,In,Center
+137,3450,In,Center
+137,3450,In,Center
+137,3450,In,Center
+137,3500,In,Center
+137,3500,In,Center
+137,3500,In,Center
+137,3600,In,Center
+137,3600,In,Hit Back Rim
+137,3600,In,Hit Back Rim
+137,3600,In,Center
+137,3650,In,Center
+137,3650,In,Center
+137,3650,In,Center
+137,3700,In,Hit Back Rim
+137,3700,Out,Near Back Rim
+137,3700,Out,Near Back Rim
+142.3,3400,Out,Short
+142.3,3400,Out,Short
+142.3,3500,In,Center
+142.3,3500,In,Center
+142.3,3600,In,Near Front Rim
+142.3,3600,In,Near Front Rim
+142.3,3600,In,Center
+142.3,3600,In,Center
+142.3,3700,In,Center
+142.3,3700,In,Center
+142.3,3700,In,Center
+142.3,3800,In,Hit Back Rim
+142.3,3800,In,Hit Back Rim
+142.3,3900,In,Hit Back Rim
+142.3,3900,Out,Long
+148.5,3504,In,Center
+148.5,3504,In,Center
+148.5,3504,In,Near Front Rim
+148.5,3504,Out,Short
+148.5,3504,Out,Hit Front Rim
+148.5,3550,In,Center
+148.5,3550,In,Center
+148.5,3550,In,Center
+148.5,3600,In,Center
+148.5,3600,In,Center
+148.5,3750,In,Center
+148.5,3750,In,Center
+148.5,3750,Out,Hit Front Rim
+148.5,3800,In,Center
+148.5,3800,In,Hit Back Rim
+148.5,3800,In,Center
+154,3700,In,Center
+154,3700,In,Center
+154,3700,In,Center
+154,3700,In,Center
+154,3700,Out,Near Back Rim
+154,3900,In,Hit Back Rim
+154,3900,Out,Long
+154,3900,Out,Long
+154.1,3600,In,Center
+154.1,3600,In,Center
+154.1,3600,in,Center
+154.1,3600,in,Center
+154.1,3600,In,Center
+154.7,3700,In,Center
+154.7,3700,In,Near Front Rim
+154.7,3700,In,Center
+154.7,3700,In,Center
+154.7,3700,In,Center
+154.7,3700,In,Center
+154.7,3700,In,Hit Back Rim
+154.7,3700,Out,Hit Front Rim
+154.7,3700,Out,Hit Front Rim
+154.7,3900,In,Center
+154.7,3900,In,Hit Back Rim
+154.7,3900,In,Center
+154.7,3900,In,Center
+154.7,3900,In,Center
+157.5,3700,In,Near Front Rim
+157.5,3700,Out,Short
+157.5,3800,Out,Hit Front Rim
+157.5,3800,Out,Short
+157.5,3850,In,Center
+157.5,3850,In,Center
+157.5,3900,In,Center
+157.5,3900,In,Center
+157.5,3950,In,Hit Back Rim
+157.5,3950,In,Center
+157.5,3950,In,Center
+157.5,4000,In,Center
+157.5,4000,In,Center
+157.5,4000,In,Center
+157.5,4050,Out,Long
+157.5,4100,Out,Long
+163.8,3950,In,Hit Back Rim
+163.8,3950,In,Center
+163.8,3950,In,Center
+163.8,3950,Out,Near Back Rim
+166.5,3600,In,Center
+166.5,3600,Out,Short
+166.5,3650,In,Center
+166.5,3650,In,Center
+166.5,3650,In,Center
+166.5,3650,In,Center
+166.5,3650,Out,Hit Front Rim
+166.5,3650,Out,Hit Front Rim
+166.5,3700,In,Center
+166.5,3700,In,Center
+166.5,3800,In,Center
+166.5,3800,In,Center
+166.5,3800,In,Center
+166.5,3900,In,Center
+166.5,3900,In,Center
+166.5,3900,In,Center
+166.5,3900,In,Center
+166.5,3900,In,Center
+166.5,4000,In,Hit Back Rim
+166.5,4000,In,Hit Back Rim
+166.5,4000,Out,Near Back Rim
+166.5,4000,Out,Long
+175,3800,In,Center
+175,3800,In,Near Front Rim
+175,3800,In,Center
+175,3800,Out,Hit Front Rim
+175,3850,In,Center
+175,3850,In,Center
+175,3900,In,Center
+175,3900,In,Near Front Rim
+175,3900,In,Center
+175,3900,In,Center
+175,3900,In,Center
+175,4000,In,Center
+175,4000,In,Center
+175,4000,In,Hit Back Rim
+175,4000,Out,Near Back Rim
+175.4,4050,In,Center
+175.4,4050,In,Center
+175.4,4100,Out,Near Back Rim
+184.3,3950,In,Center Bounced Out
+184.3,3950,In,Center
+184.3,3950,In,Center
+184.3,4050,In,Center
+184.3,4050,In,Near Front Rim
+184.3,4050,In,Center
+184.3,4150,In,Center Bounced Out
+184.3,4150,In,Center
+184.3,4150,In,Hit Back Rim
+184.3,4150,Out,Near Back Rim
+184.3,4200,In,Center
+184.3,4200,In,Hit Back Rim
+184.3,4200,Out,Near Back Rim
+192,3800,Out,Short
+192,3900,In,Center
+192,3900,In,Center
+192,3900,In,Center
+192,3900,In,Center
+192,3900,In,Center
+192,3900,In,Center
+192,3900,Out,Hit Front Rim
+192,4000,In,Center
+192,4000,In,Center
+192,4100,In,Center Bounced Out
+192,4100,In,Center Bounced Out
+192,4200,In,Center
+192,4200,In,Center
+192,4200,In,Center
+192,4200,In,Center Bounced Out
+192,4300,In,Center
+192,4300,In,Hit Back Rim
+192,4300,In,Center
+192,4300,Out,Long
+198.5,4200,In,Center Bounced Out
+206.2,4000,Out,Hit Front Rim
+206.2,4000,Out,Hit Front Rim
+206.2,4050,In,Center
+206.2,4050,In,Center
+206.2,4050,In,Near Front Rim
+206.2,4050,Out,Hit Front Rim
+206.2,4100,In,Center
+206.2,4100,In,Center
+206.2,4100,In,Center
+206.2,4100,In,Center Bounced Out
+206.2,4100,In,Center
+206.2,4100,In,Center
+206.2,4150,In,Center
+206.2,4150,In,Center
+206.2,4150,In,Center
+206.2,4150,In,Center
+206.2,4200,In,Center
+206.2,4200,In,Center Bounced Out
+206.2,4300,In,Center
+206.2,4300,In,Center
+206.2,4300,In,Center
+206.2,4400,In,Center
+206.2,4400,In,Center
+206.2,4400,In,Center
+206.2,4400,In,Center
+206.2,4450,In,Center Bounced Out
+206.2,4450,In,Hit Back Rim
+207.7,4100,Out,Short
+207.7,4100,Out,Short
+207.7,4200,In,Center
+207.7,4200,In,Center
+207.7,4200,In,Center
+207.7,4300,In,Center
+207.7,4300,In,Center
+207.7,4300,In,Center
+207.7,4300,In,Center
+207.7,4300,In,Center Bounced Out
+207.7,4300,Out,Hit Front Rim
+207.7,4350,In,Center
+207.7,4350,In,Center Bounced Out
+207.7,4400,In,Hit Back Rim
+207.7,4400,In,Center Bounced Out
+207.7,4400,In,Center Bounced Out
+213.6,4400,In,Center Bounced Out
+213.6,4400,In,Center
+213.6,4400,In,Center
+213.6,4400,In,Near Front Rim
+213.6,4400,Out,Hit Front Rim
+213.6,4450,In,Center
+213.6,4450,In,Center
+213.6,4450,In,Center
+213.6,4450,In,Center Bounced Out
+213.6,4450,Out,Long
+213.6,4500,In,Center
+213.6,4500,In,Center
+213.6,4500,In,Center
+213.6,4550,In,Near Front Rim
+213.6,4550,In,Center
+213.6,4550,In,Hit Back Rim
+213.6,4550,In,Center
+213.6,4600,Out,Near Back Rim
+218.4,4550,In,Center
+218.4,4550,In,Center Bounced Out
+218.4,4550,In,Center
+218.4,4550,In,Center
+218.4,4650,In,Center
+218.4,4650,In,Center
+218.4,4650,In,Center
+218.4,4650,Out,Long
+225,4350,In,Center
+225,4350,In,Center Bounced Out
+225,4350,In,Near Front Rim
+225,4400,In,Center
+225,4400,In,Near Front Rim
+225,4400,In,Center Bounced Out
+225,4400,Out,Short
+225,4400,Out,Hit Front Rim
+225,4450,In,Center
+225,4450,In,Center
+225,4500,In,Center
+225,4500,In,Hit Back Rim
+225,4550,In,Center Bounced Out
+225,4550,In,Hit Back Rim
+225,4550,Out,Short
+225,4600,in,Center Bounced Out
+225,4600,In,Center
+225,4600,Out,Short
+225,4650,In,Center
+225,4650,In,Center
+225,4650,In,Center
+225,4700,In,Center Bounced Out
+225,4700,In,Center Bounced Out
+225,4700,In,Center
+225,4700,In,Center
+229,4300,Out,Short
+229,4350,Out,Short
+229,4400,In,Center
+229,4400,In,Center
+229,4400,Out,Hit Front Rim
+229,4400,Out,Short
+229,4400,Out,Hit Front Rim
+229,4467,Out,Hit Front Rim
+229,4467,Out,Short
+229,4500,Out,Short
+229,4600,In,Center
+229,4600,In,Center
+229,4600,Out,Short
+229,4700,In,Center
+229,4700,In,Center
+229,4700,Out,Hit Front Rim
+229,4800,In,Center
+229,4800,In,Center
+229,4800,Out,Near Back Rim
+229,4800,Out,Near Back Rim
+229,4900,Out,Near Back Rim
+229,5000,Out,Long
+229,5000,Out,Near Back Rim
+229,5200,In,Center
