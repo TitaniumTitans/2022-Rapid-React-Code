@@ -6,6 +6,7 @@ import numpy as np
 import csv
 from scipy.interpolate import lagrange
 from scipy.stats import gaussian_kde
+from matplotlib.colors import LinearSegmentedColormap as ls
 array = []
 # with open("dist_vs_rpm.txt", newline="") as data:
 # with open("filtered_data_copy_2.csv", newline="") as data:
@@ -17,34 +18,69 @@ with open("combined.csv", newline="") as data:
     # array = np.array([[[float(p[0]), float(p[1])], float(p[2])] for p in data_reader])
 # keys = np.unique(array[:,0])
 # for key in keys:
-    
+
+fig, ax = plt.subplots()
+
+hit = np.array([a for a in array if a[2]==1])
+out = np.array([a for a in array if a[2]==0])
+
+hx, hy = hit[:,0], hit[:,1]
+ox, oy = out[:,0], out[:,1]
+
+hxy = np.vstack([hx, hy])
+oxy = np.vstack([ox, oy])
+hdg = gaussian_kde(hxy)
+odg = gaussian_kde(oxy)
+
+
+hd = hdg(hxy)
+od = odg(oxy)
+
+hi = hd.argsort()
+oi = od.argsort()
+
+hxi, hyi, hdi = hx[hi], hy[hi], hd[hi]
+oxi, oyi, odi = ox[oi], oy[oi], od[oi]
+
+cr = ls.from_list("cr", ["black", "red"])   # 157: 0.2823741007194245
+cg = ls.from_list("cg", ["black", "green"]) # 399: 0.7176258992805755
+cb = ls.from_list("cb", ["black", "blue"])
+
+plt.scatter(hxi, hyi, c=hdi, s=100, cmap=cg, label="Hit", alpha=0.7176258992805755)
+# plt.scatter(hxi, hyi, c=hdi, s=100, cmap="gray", label="Hit", alpha=0)
+plt.scatter(oxi, oyi, c=odi, s=100, cmap=cr, label="Miss", alpha=0.2823741007194245)
+# plt.scatter(oxi, oyi, c=odi, s=100, cmap="gray", label="Miss", alpha=0)
+
+xmin, xmax = ax.get_xlim()
+ymin, ymax = ax.get_ylim()
+
+print(f"xmin: {xmin}, xmax: {xmax}, ymin: {ymin}, ymax: {ymax}")
+
+X, Y = np.mgrid[xmin:xmax:500j, ymin:ymax:500j]
+positions = np.vstack([X.ravel(), Y.ravel()])
+
+hz = np.reshape(hdg(positions).T, X.shape)
+oz = np.reshape(odg(positions).T, X.shape)
+
+ax.imshow(np.rot90(hz-oz), cmap="inferno", vmin=0, extent=[xmin,xmax,ymin,ymax],aspect="auto")
 # h = np.unique(array[:,:2], axis=0)
 # [[(a[0],a[1]), a[2]] for a in array]
-out = np.unique(array, axis=0, return_counts=True)
+# out = np.unique(array, axis=0, return_counts=True)
 # out = np.unique(array[:,0], axis=0, return_counts=True)
 
-out[0][:,2]=out[1]
-final = out[0]
-# out = np.array([[k, *np.unique(array[array[:,0] == k,1], return_counts=True)[1]] for k in np.unique(array[:,0])])
-# print(final)
-
-# # 0    Out,Short
-# # 1    Out,Front
-# # 2    In,Near Front Rim
-# # 3    In,Center
-# # 4    Out,Bounced
-# # 5    In,Hit Back Rim
-# # 6    Out,Near Back Rim
-# # 7    Out,Long
+# out[0][:,2]=out[1]
+# final = out[0]
 
 x = array[:,0]
 y = array[:,1]
 z = array[:,2]
 
-xy = np.vstack([final[:,0],final[:,1]])
-g=gaussian_kde(xy)(xy)
-idx = g.argsort()
-ix, iy, iz = final[:,0][idx], final[:,1][idx], g[idx]
+
+
+# xy = np.vstack([final[:,0],final[:,1]])
+# g=gaussian_kde(xy)(xy)
+# idx = g.argsort()
+# ix, iy, iz = final[:,0][idx], final[:,1][idx], g[idx]
 # sorted = array[array[:, 2].argsort()]
 # segmented = np.split(sorted, np.where(np.diff(sorted[:,2]))[0]+1)
 
@@ -52,7 +88,8 @@ ix, iy, iz = final[:,0][idx], final[:,1][idx], g[idx]
 # plt.scatter(final[:,0], final[:,1], c="black", s=50)
 # plt.scatter(final[:,0], final[:,1], c=final[:,2], s=10, cmap="inferno")
 # plt.scatter(final[:,0], final[:,1], c=g, s=100, cmap="inferno")
-plt.scatter(ix, iy, c=iz, s=100, cmap="inferno")
+# plt.scatter(ix, iy, c=iz, s=100, cmap="inferno")
+
 # plt.scatter(segmented[0][:,0], segmented[0][:,1], label='0')
 # plt.scatter(segmented[1][:,0], segmented[1][:,1], label='1')
 # plt.scatter(segmented[2][:,0], segmented[2][:,1], label='2')
