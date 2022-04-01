@@ -10,7 +10,7 @@ from matplotlib.colors import LinearSegmentedColormap as ls
 array = []
 # with open("dist_vs_rpm.txt", newline="") as data:
 # with open("filtered_data_copy_2.csv", newline="") as data:
-with open("combined.csv", newline="") as data:
+with open("smokey_practice_match_29.csv", newline="") as data:
     data_reader = csv.reader(data)
     # data_reader = csv.reader(data,delimiter="\t")
     array = np.array([[float(p[0]), float(p[1]), float(p[2])] for p in data_reader])
@@ -46,9 +46,11 @@ cr = ls.from_list("cr", ["black", "red"])   # 157: 0.2823741007194245
 cg = ls.from_list("cg", ["black", "green"]) # 399: 0.7176258992805755
 cb = ls.from_list("cb", ["black", "blue"])
 
-plt.scatter(hxi, hyi, c=hdi, s=100, cmap=cg, label="Hit", alpha=0.7176258992805755)
+plt.scatter(hxi, hyi, s=100, cmap="Greens", label="Hit", alpha=0.5)
+# plt.scatter(hxi, hyi, c=hdi, s=100, cmap=cg, label="Hit", alpha=0.7176258992805755)
 # plt.scatter(hxi, hyi, c=hdi, s=100, cmap="gray", label="Hit", alpha=0)
-plt.scatter(oxi, oyi, c=odi, s=100, cmap=cr, label="Miss", alpha=0.2823741007194245)
+plt.scatter(oxi, oyi, s=100, cmap="Reds", label="Miss", alpha=0.5)
+# plt.scatter(oxi, oyi, c=odi, s=100, cmap=cr, label="Miss", alpha=0.2823741007194245)
 # plt.scatter(oxi, oyi, c=odi, s=100, cmap="gray", label="Miss", alpha=0)
 
 xmin, xmax = ax.get_xlim()
@@ -62,7 +64,7 @@ positions = np.vstack([X.ravel(), Y.ravel()])
 hz = np.reshape(hdg(positions).T, X.shape)
 oz = np.reshape(odg(positions).T, X.shape)
 
-ax.imshow(np.rot90(hz-oz), cmap="inferno", vmin=0, extent=[xmin,xmax,ymin,ymax],aspect="auto")
+# ax.imshow(np.rot90(hz-oz), cmap="inferno", vmin=0, extent=[xmin,xmax,ymin,ymax],aspect="auto")
 # h = np.unique(array[:,:2], axis=0)
 # [[(a[0],a[1]), a[2]] for a in array]
 # out = np.unique(array, axis=0, return_counts=True)
