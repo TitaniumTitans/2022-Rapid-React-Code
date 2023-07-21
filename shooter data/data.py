@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import csv
 array = []
 # with open("dist_vs_rpm.txt", newline="") as data:
-with open("5.csv", newline="") as data:
+with open("combined.csv", newline="") as data:
     # data_reader = csv.reader(data, delimiter="\t")
     data_reader = csv.reader(data)
     array = np.array([[float(point[0]), float(point[1])] for point in data_reader])
